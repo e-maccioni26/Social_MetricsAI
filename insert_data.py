@@ -1,5 +1,5 @@
 from db import get_db_connection
-
+# test 
 data = [
     ("J'adore ce produit, il est incroyable !", 1, 0),
     ("Ce service est excellent et très réactif.", 1, 0),

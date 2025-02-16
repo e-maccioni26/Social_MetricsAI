@@ -9,7 +9,6 @@
     <div class="container">
         <h1>Analyse de Sentiment</h1>
         
-        <!-- Formulaire de prédiction -->
         <form method="POST" action="/">
             <label for="tweet">Entrez votre tweet :</label><br><br>
             <textarea name="tweet" id="tweet" rows="5" cols="60" placeholder="Tapez votre tweet ici..."></textarea><br><br>
@@ -32,7 +31,6 @@
                 {% endif %}
             </div>
             
-            <!-- Formulaire d'annotation -->
             <hr>
             <h3>Confirmez l'annotation pour ce tweet :</h3>
             <form method="POST" action="/annotate">

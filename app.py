@@ -60,9 +60,6 @@ def annotate():
 
 @app.route('/analyze', methods=['POST'])
 def analyze_sentiments_api():
-    """
-    Endpoint API pour une utilisation JSON (inchangé)
-    """
     try:
         if not request.is_json:
             return jsonify({"error": "Content-Type must be application/json"}), 415

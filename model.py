@@ -9,7 +9,6 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 
-# Liste personnalisée de stop words en français
 french_stop_words = [
     "alors", "au", "aucuns", "aussi", "autre", "avant", "avec", "avoir", "bon", "car", "ce", "cela", "ces", "ceux",
     "chaque", "ci", "comme", "comment", "dans", "des", "du", "dedans", "dehors", "depuis", "devrait", "doit",
